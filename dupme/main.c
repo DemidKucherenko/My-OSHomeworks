@@ -1,7 +1,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
-
+                 /*
 int parseInt(char* s) {
 	int x = 0;
 	int i;
@@ -10,8 +10,8 @@ int parseInt(char* s) {
 	}
 	return x;
 }
-
+                   */
 int main (int argc, char * argv[]) {
-	int k = parseInt(argv[1]);
+	int k = atoi(argv[1]);
 	printf("%d", k);
 }	
